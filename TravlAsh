@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Asheville Fall Getaway</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fefefe;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header, nav, section, footer {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            background: url('your_asheville_fall_image.jpg') no-repeat center center/cover;
+            color: #fff;
+            height: 300px;
+            position: relative;
+        }
+        header h1 {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            background: rgba(0,0,0,0.5);
+            padding: 10px;
+        }
+        nav {
+            background: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: #fefefe;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background: #575757;
+            color: #fff;
+        }
+        section {
+            background: #f4f4f4;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        h2, h3 {
+            color: #333;
+        }
+        .image {
+            width: 100%;
+            height: auto;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        .gallery img {
+            width: 30%;
+            margin: 1.66%;
+            border-radius: 5px;
+        }
+        .map {
+            width: 100%;
+            height: 400px;
+            border: none;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: #fefefe;
+        }
+        .checklist ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        .weather-widget {
+            margin-top: 20px;
+            text-align: center;
+        }
+        @media(max-width: 768px) {
+            nav a {
+                float: none;
+                width: 100%;
+            }
+            .gallery img {
+                width: 48%;
+            }
+        }
+        @media(max-width: 480px) {
+            .gallery img {
+                width: 98%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Asheville Fall Getaway</h1>
+</header>
+
+<nav>
+    <a href="#day1">Day 1 Itinerary</a>
+    <a href="#day2">Day 2 Itinerary</a>
+    <a href="#places">Places We'll Visit</a>
+    <a href="#gallery">Photo Gallery</a>
+    <a href="#checklist">Travel Checklist</a>
+</nav>
+
+<section id="introduction">
+    <p>Welcome to our Asheville Fall Getaway! Here's our fun, romantic, and relaxing weekend plan for October 25-26, 2024.</p>
+    <!-- Image Placeholder -->
+    <img src="your_asheville_fall_image.jpg" alt="Asheville Fall Foliage" class="image">
+</section>
+
+<section id="day1">
+    <h2>Day 1 Itinerary</h2>
+
+    <h3>Morning - Depart from Burlington, NC</h3>
+    <p>We’ll leave Burlington early at 8:00 AM for a scenic 3-hour drive to Asheville, NC.</p>
+    <p><a href="https://www.google.com/maps/dir/Burlington,+NC/Asheville,+NC/" target="_blank">View Route on Google Maps</a></p>
+    <!-- Image Placeholder -->
+    <img src="your_scenic_drive_image.jpg" alt="Scenic Drive" class="image">
+
+    <h3>11:00 AM - Check-in at West Asheville Airbnb</h3>
+    <p>Arrive at our eco-friendly Airbnb in West Asheville. It's the perfect spot to relax and rejuvenate.</p>
+    <!-- Airbnb Listing URL -->
+    <!-- <p><a href="your_airbnb_listing_url" target="_blank">View Airbnb Listing</a></p> -->
+    <!-- Image Placeholder -->
+    <img src="your_airbnb_image.jpg" alt="Airbnb in West Asheville" class="image">
+
+    <h3>12:00 PM - Brunch at Tupelo Honey Café</h3>
+    <p>Head to Tupelo Honey Café for a Southern-inspired brunch in downtown Asheville.</p>
+    <p><a href="https://tupelohoneycafe.com/" target="_blank">Tupelo Honey Café Website</a></p>
+    <!-- Image Placeholder -->
+    <img src="your_tupelo_honey_image.jpg" alt="Tupelo Honey Café" class="image">
+
+    <h3>2:00 PM - Visit Looking Glass Falls</h3>
+    <p>After brunch, we’ll take a 45-minute drive to Pisgah National Forest to see Looking Glass Falls, a stunning waterfall surrounded by fall colors.</p>
+    <p><a href="https://www.fs.usda.gov/recarea/nfsnc/recarea/?recid=48186" target="_blank">Pisgah National Forest - Looking Glass Falls Info</a></p>
+    <p><a href="https://www.google.com/maps/place/Looking+Glass+Falls/" target="_blank">View on Google Maps</a></p>
+    <!-- Image Placeholder -->
+    <img src="your_looking_glass_falls_image.jpg" alt="Looking Glass Falls" class="image">
+
+    <h3>4:45 PM - Return to Airbnb and Relax</h3>
+    <p>We’ll drive back to the Airbnb to relax and recharge before dinner.</p>
+
+    <h3>6:30 PM - Romantic Dinner</h3>
+    <p>We’ll choose between three great dinner spots in Asheville:</p>
+    <ul>
+        <li><a href="https://marketplace-restaurant.com/" target="_blank">The Market Place</a></li>
+        <li><a href="https://posanarestaurant.com/" target="_blank">Posana</a></li>
+        <li><a href="https://curatetapasbar.com/" target="_blank">Cúrate</a></li>
+    </ul>
+    <!-- Image Placeholder -->
+    <img src="your_dinner_option_image.jpg" alt="Dinner Options" class="image">
+
+    <h3>9:00 PM - Evening Stroll & Nightcap</h3>
+    <p>End the evening with a stroll through Pack Square and a nightcap at Sovereign Remedies or Crow & Quill.</p>
+    <ul>
+        <li><a href="https://sovereignremedies.com/" target="_blank">Sovereign Remedies</a></li>
+        <li><a href="https://thecrowandquill.com/" target="_blank">Crow & Quill</a></li>
+    </ul>
+    <!-- Image Placeholder -->
+    <img src="your_pack_square_image.jpg" alt="Pack Square" class="image">
+</section>
+
+<section id="day2">
+    <h2>Day 2 Itinerary</h2>
+
+    <h3>8:00 AM - Breakfast at Biltmore Village</h3>
+    <p>We’ll start the day with a delicious breakfast at Well-Bred Bakery in Biltmore Village.</p>
+    <p><a href="https://www.wellbredbakery.com/" target="_blank">Well-Bred Bakery</a></p>
+    <!-- Image Placeholder -->
+    <img src="your_biltmore_village_image.jpg" alt="Biltmore Village" class="image">
+
+    <h3>9:30 AM - Scenic Drive & Hike at Craggy Gardens</h3>
+    <p>After breakfast, we’ll take a scenic drive along the Blue Ridge Parkway to Craggy Gardens for a short hike with breathtaking mountain views and fall colors.</p>
+    <p><a href="https://www.blueridgeparkway.org/poi/craggy-gardens/" target="_blank">Craggy Gardens Info</a></p>
+    <!-- Image Placeholder -->
+    <img src="your_craggy_gardens_image.jpg" alt="Craggy Gardens" class="image">
+
+    <h3>12:00 PM - Drive Back to Burlington, NC</h3>
+    <p>After our hike, we’ll begin the 3-hour drive back to Burlington.</p>
+    <p><a href="https://www.google.com/maps/dir/Craggy+Gardens/Burlington,+NC/" target="_blank">View Route on Google Maps</a></p>
+    <!-- Image Placeholder -->
+    <img src="your_return_trip_image.jpg" alt="Return Trip" class="image">
+</section>
+
+<section id="places">
+    <h2>Places We'll Visit (Interactive Map)</h2>
+    <!-- Google Maps Embed Placeholder -->
+    <iframe src="your_google_map_embed_url" class="map"></iframe>
+    <p>Brief descriptions and links for each location:</p>
+    <ul>
+        <li>Airbnb in West Asheville</li>
+        <li><a href="https://tupelohoneycafe.com/" target="_blank">Tupelo Honey Café</a></li>
+        <li><a href="https://www.fs.usda.gov/recarea/nfsnc/recarea/?recid=48186" target="_blank">Looking Glass Falls</a></li>
+        <li>Dinner Options: <a href="https://marketplace-restaurant.com/" target="_blank">The Market Place</a>, <a href="https://posanarestaurant.com/" target="_blank">Posana</a>, <a href="https://curatetapasbar.com/" target="_blank">Cúrate</a></li>
+        <li><a href="https://www.wellbredbakery.com/" target="_blank">Biltmore Village</a></li>
+        <li><a href="https://www.blueridgeparkway.org/poi/craggy-gardens/" target="_blank">Craggy Gardens</a></li>
+    </ul>
+</section>
+
+<section id="gallery">
+    <h2>Photo Gallery</h2>
+    <p>Check out some of the views and locations we’ll visit during the trip!</p>
+    <div class="gallery">
+        <!-- Image Placeholders -->
+        <img src="your_image1.jpg" alt="Gallery Image 1">
+        <img src="your_image2.jpg" alt="Gallery Image 2">
+        <img src="your_image3.jpg" alt="Gallery Image 3">
+    </div>
+    <p>You can replace these images with your own photos after the trip.</p>
+</section>
+
+<section id="checklist" class="checklist">
+    <h2>Travel Checklist</h2>
+    <ul>
+        <li>Camera</li>
+        <li>Hiking Shoes</li>
+        <li>Snacks</li>
+        <li>Layers for Cooler Temperatures</li>
+    </ul>
+</section>
+
+<section class="weather-widget">
+    <h2>Current Weather in Asheville</h2>
+    <!-- Weather Widget Placeholder -->
+    <iframe src="your_weather_widget_url" width="100%" height="150" frameborder="0"></iframe>
+    <!-- Alternatively, link to a weather website -->
+    <p><a href="https://weather.com/weather/today/l/Asheville+NC?canonicalCityId=dfdaba8cbe3c31bb8aa747ec45b6e1f1b87f85dfe54d1f8dc7d5a7a0a9e405b1" target="_blank">Check Asheville's Weather</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Asheville Fall Getaway</p>
+</footer>
+
+</body>
+</html>
